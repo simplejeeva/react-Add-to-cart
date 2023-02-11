@@ -1,0 +1,46 @@
+.navbar-brand {
+  margin-left: 70px;
+}
+
+body {
+  background-color: rgb(122, 105, 140);
+}
+
+nav {
+  background-color: black;
+  z-index: 1;
+  opacity: 0.9;
+  background-size: cover;
+}
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: rgb(255 255 255 / 75%) !important;
+}
+.poster {
+  width: 100%;
+  object-fit: cover;
+
+  height: 440px;
+}
+.sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(69, 69, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.row {
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
